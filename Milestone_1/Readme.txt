@@ -11,7 +11,7 @@ Steps:
 	Execute adjacency_matrix:	
 		Run the adjacency_matrix code to generate a visualization of the project data.
 	Execute CityFinder Code:
-		Run the CityFinder code to retrieve the path between the desired source and destination cities.
+		Run the CityFinder code to retrieve the path between the desired source and destination cities, for source and destination states give the two letter state code.
 		
 Additional Notes:
 The project assumes that all files are kept in a single folder for optimal functionality.
