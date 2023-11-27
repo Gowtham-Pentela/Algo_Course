@@ -721,7 +721,7 @@ Rhode Island,Massachusetts,Woonsocket,Chicopee,71,58.35,15,0.00284091,4.00128E-0
 Connecticut,Massachusetts,Hartford,Chicopee,30,60,-156,-0.029545464,-0.000984849
 Massachusetts,Connecticut,Chicopee,Hartford,31,60,156,0.029545464,0.000953079
 Ohio,Michigan,Toledo,Detroit,59,59,-18,-0.003409092,-5.77812E-05
-Ohio,Michigan,Toledo,AnnArbor,54,58.064516,-260,-0.04924244,-0.000911897
+Ohio,Michigan,Toledo,Ann Arbor,54,58.064516,-260,-0.04924244,-0.000911897
 Ohio,Indiana,Toledo,Fortwayne,103,63.580247,-203,-0.038446982,-0.000373272
 Ohio,Indiana,Toledo,Southbend,156,65,-129,-0.024431826,-0.000156614
 Ohio,Indiana,Cincinnati,Fortwayne,179,59.666667,-306,-0.057954564,-0.000323769
@@ -745,11 +745,11 @@ Kentucky,Indiana,La Grange,Evansville,146,67.906977,411,0.077840934,0.000533157
 Michigan,Ohio,Detroit,Toledo,59,62.105263,18,0.003409092,5.77812E-05
 Michigan,Indiana,Detroit,Fortwayne,162,63.529412,-185,-0.03503789,-0.000216283
 Michigan,Indiana,Detroit,Southbend,211,63.939394,-111,-0.021022734,-9.96338E-05
-Michigan,Indiana,AnnArbor,Southbend,169,61.454545,131,0.024810614,0.000146808
-Michigan,Indiana,AnnArbor,Fortwayne,141,61.304348,57,0.010795458,7.65635E-05
+Michigan,Indiana,Ann Arbor,Southbend,169,61.454545,131,0.024810614,0.000146808
+Michigan,Indiana,Ann Arbor,Fortwayne,141,61.304348,57,0.010795458,7.65635E-05
 Indiana,Ohio,Fortwayne,Toledo,102,63.75,203,0.038446982,0.000376931
 Indiana,Ohio,Fortwayne,Dayton,127,57.207207,-26,-0.004924244,-3.87736E-05
-Indiana,Michigan,Southbend,AnnArbor,178,64.028777,-131,-0.024810614,-0.000139385
+Indiana,Michigan,Southbend,Ann Arbor,178,64.028777,-131,-0.024810614,-0.000139385
 Indiana,Michigan,Southbend,Detroit,217,63.823529,111,0.021022734,9.6879E-05
 Indiana,Kentucky,Evansville,Louisville,127,65.463918,-185,-0.03503789,-0.000275889
 Indiana,Kentucky,Evansville,La Grange,144,66.666667,-411,-0.077840934,-0.000540562
