@@ -1,5 +1,7 @@
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
@@ -21,6 +23,24 @@ class Graph {
 
     public Set<String> getAllCities() {
         return graph.keySet();
+    }
+
+    public void writeToFile() {
+        String header = "State_Origin,State_Destination,City_Origin,City_Destination,Distance,Speed,Sea_Level_Diff,Sea_Level_Diff_Miles,Sea_Level_Gradient";
+        
+        try(BufferedWriter writer = new BufferedWriter(new FileWriter("MST_Data.csv"))) {
+            writer.write(header);
+            writer.write("\n");
+            for(Map.Entry<String, Map<String, Double>> entry : graph.entrySet()) {
+                for(Map.Entry<String, Double> entry1 : entry.getValue().entrySet()) {
+                    String content = "State,State," + entry.getKey() + "," + entry1.getKey() + "," + entry1.getValue() + "0,0,0,0";
+                    writer.write(content);
+                    writer.write("\n");
+                }
+            }
+        } catch(IOException e) {
+            e.printStackTrace();
+        }
     }
 }
 
@@ -163,7 +183,7 @@ public class CityPathFinder {
     Collections.sort(edgeList, new Node_Comparator()); // Sort edge list
 
     // Calculate the minimum spanning tree
- Graph MST = new Graph(); // Minimum Spanning Tree
+    Graph MST = new Graph(); // Minimum Spanning Tree
     DSU set = new DSU(cities);
     double sum = 0;
     int num_edges = 0;
@@ -299,7 +319,7 @@ static class Edge {
         Graph graph = new Graph();
 
         // Read data from CSV file
-        String csvFile = "Final_Connection_V3.csv";
+        String csvFile = "C:\\Users\\PNW_checkout\\Documents\\Algo\\project\\Milestone3\\Final_Connection_V3.csv";
         String line;
         String csvSplitBy = ",";
         boolean firstLine = true;
@@ -329,16 +349,15 @@ static class Edge {
         int choice = Integer.parseInt(scanner.nextLine());
         if (choice ==1){
         System.out.println("Prims:");
-        primsAlgo(graph);
+            Graph MST = primsAlgo(graph);
+            MST.writeToFile();
         }else if (choice==2){
-        System.out.println("Kruskals:");
-        kruskalAlgo(graph);
+            System.out.println("Kruskals:");
+            Graph MST = kruskalAlgo(graph);
+            MST.writeToFile();
         }
         else{
             System.out.println("Choose either Prims or Kruskals Algorithms");
         }
-
-        
-
     }
 }
