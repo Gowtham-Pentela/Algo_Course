@@ -1,0 +1,64 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Cup",
+            "request": "launch",
+            "mainClass": "Cup",
+            "projectName": "CityGraph_2fda284"
+        },
+        {
+            "type": "java",
+            "name": "CustomXYToolTipGenerator",
+            "request": "launch",
+            "mainClass": "CustomXYToolTipGenerator",
+            "projectName": "CityGraph_2fda284"
+        },
+        {
+            "type": "java",
+            "name": "CityPlotterConnection",
+            "request": "launch",
+            "mainClass": "CityPlotterConnection",
+            "projectName": "CityGraph_2fda284"
+        },
+        {
+            "type": "java",
+            "name": "CityPlotter_connection",
+            "request": "launch",
+            "mainClass": "CityPlotter_connection",
+            "projectName": "CityGraph_2fda284"
+        },
+        {
+            "type": "java",
+            "name": "CityPlotter$CustomXYToolTipGenerator",
+            "request": "launch",
+            "mainClass": "CityPlotter$CustomXYToolTipGenerator",
+            "projectName": "CityGraph_2fda284"
+        },
+        {
+            "type": "java",
+            "name": "CityPlotter",
+            "request": "launch",
+            "mainClass": "CityPlotter",
+            "projectName": "CityGraph_2fda284"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CityGraph",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/PNW_checkout/Downloads/javafx-sdk-17.0.9/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.web --add-opens=javafx.graphics/javafx.scene=ALL-UNNAMED --add-exports javafx.base/com.sun.javafx.event=ALL-UNNAMED",
+            "mainClass": "CityGraph",
+            "projectName": "CityGraph_2fda284"
+        }
+    ]
+}
