@@ -63,7 +63,7 @@ The final milestone integrates **Dijkstra's Shortest Path Algorithm**, allowing 
 
 1. Clone the repository:
    ```bash
-   [git clone <repo-url>](https://github.com/Gowtham-Pentela/Algo_Course.git)
+   [git clone <https://github.com/Gowtham-Pentela/Algo_Course.git>]
    ```
 2. Open the project in your Java IDE.
 3. Compile and run the `Main.java` file to launch the GUI for city map navigation.
